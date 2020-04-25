@@ -1,0 +1,32 @@
+table{
+    margin-top: 5%;
+    padding: 5%;
+    width: 100%;
+    height: auto;
+}
+
+table tr{
+    border: 1px rgba(255, 255, 255, 0.562);
+    width: auto;
+    height: auto;
+}
+
+table tr td{
+    padding: 2%;
+}
+
+#fst_medal{
+    color: rgb(251, 255, 0);
+}
+
+#scnd_medal{
+    color: rgb(168,168,168);
+}
+
+#thd_medal{
+    color: rgb(150,90,56);
+}
+
+#btn-to-score{
+    float: left;
+}

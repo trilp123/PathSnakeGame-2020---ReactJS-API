@@ -1,0 +1,183 @@
+i {
+    color: #dcdce6;
+}
+
+.container_input {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+}
+
+.container_input i {
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+
+#container-sign-in {
+    width: 100%;
+    height: 70px;
+}
+
+p {
+    cursor: pointer;
+    width: 39%;
+    padding: 10% 0 3% 8%;
+    float: left;
+    font-size: 11pt;
+    color: #dcdce6;
+    transition: color 0.7s, font-size 0.7s, letter-spacing 0.7s;
+}
+
+p:hover {
+    color: rgb(235, 34, 34);
+    font-size: 13pt;
+    letter-spacing: normal;
+    text-decoration: underline;
+}
+
+span {
+    float: right;
+    margin: 8% 10% 0 0
+}
+
+#container-register {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20%;
+}
+
+#btn-register {
+    float: right;
+    margin-right: 10%;
+}
+
+#copyright {
+    font-size: 10pt;
+    width: 50%;
+    margin-left: 8%;
+}
+
+#footer_login {
+    width: 100%;
+    height: 50px;
+}
+
+#footer_login i {
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+    cursor: help;
+    transition: color 0.7s;
+}
+
+#footer_login i:hover {
+    color: rgb(235, 34, 34);
+}
+
+/* section de ajuda de comandos do game*/
+
+#container-help {
+    display: none;
+    height: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+header i {
+    margin-top: -10%;
+    margin-right: 5%;
+    float: right;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+header i:hover {
+    color: rgb(235, 34, 34);
+}
+
+#controls_nd_objective{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+h3{
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#controls{
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 3%;
+    float: left;
+
+}
+
+#objective{
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 3%;
+    float: right;
+
+}
+
+/* section de recuperação de senha */
+
+#fogot_password{
+    color: #dcdce6;
+    display: none;
+    padding: 5%;
+    height: 150px;
+    border: 2px solid rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+#header_fogot_password{
+    width: 100%;
+    height: auto;
+}
+
+h5{
+    width: 85%;
+    font-size: 15pt;
+    padding-bottom: 5%;
+}
+
+#header_fogot_password i{
+    float: right;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+#header_fogot_password i:hover{
+    color: rgb(235, 34, 34);
+}
+
+#email_forgotPassWord{
+    margin-bottom: 5%;
+    margin-left: 2%;
+    height: 27px;
+    padding: 1%;
+    width: 80%;
+    border-radius: 6px;
+    background: transparent;
+    transition: border-color 0.5s;
+}
+
+#email_forgotPassWord:hover {
+    border-color: rgb(235, 34, 34);
+  }
+
+#confirm_forgot{
+    float: right;
+}
