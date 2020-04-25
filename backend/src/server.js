@@ -6,7 +6,7 @@ const routes = require('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://Hugo:hugo@pathsnakecluster-joiju.mongodb.net/pathsnake?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
